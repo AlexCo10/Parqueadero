@@ -283,10 +283,10 @@ public class formulario extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnAgregar;
-    private javax.swing.JButton btnLimpiar;
-    private javax.swing.JButton btnReiniciar;
-    private javax.swing.JButton btnTotalizar;
+    public javax.swing.JButton btnAgregar;
+    public javax.swing.JButton btnLimpiar;
+    public javax.swing.JButton btnReiniciar;
+    public javax.swing.JButton btnTotalizar;
     private javax.swing.JComboBox<String> cmbTipo;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
@@ -306,6 +306,6 @@ public class formulario extends javax.swing.JFrame {
     private javax.swing.JTextField txtModelo;
     private javax.swing.JTextField txtMotos;
     private javax.swing.JTextField txtPlaca;
-    private javax.swing.JTextArea txtResultado;
+    public javax.swing.JTextArea txtResultado;
     // End of variables declaration//GEN-END:variables
 }
