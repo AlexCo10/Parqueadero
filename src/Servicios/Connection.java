@@ -19,7 +19,7 @@ public class Connection
             try
             {
                 Class.forName("com.mysql.jdbc.Driver");
-                cnx = DriverManager.getConnection("jdbc:mysql://localhost/parqueadero", "root", "");
+                cnx = DriverManager.getConnection("jdbc:mysql://localhost/hotel", "root", "");
             } catch (SQLException ex) 
             {
                 throw new SQLException(ex);

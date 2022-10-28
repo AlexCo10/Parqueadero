@@ -4,25 +4,28 @@
  * and open the template in the editor.
  */
 package Controlador;
-import Modelo.*;
-import Vista.*;
+import modelo.*;
+import vista.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
 /**
  *
  * @author estudiante
  */
 public class Control implements ActionListener{
     
-    private Vehiculo Modelo;
-    private Vista Vista;
+    private Vehiculo modelo;
+    private formulario Vista;
     
     public Control(){}
 
-    public Control(Vehiculo Modelo, Vista Vista) {
-        this.Modelo = Modelo;
+    public Control(Vehiculo modelo, formulario Vista) {
+        this.modelo = modelo;
         this.Vista = Vista;
     }
+
+    
     
     public void ActionListener (ActionListener Control)
     {
